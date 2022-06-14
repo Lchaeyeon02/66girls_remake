@@ -1,0 +1,133 @@
+* body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    background-image: url("images/lala.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  /* background-position: right center; */
+
+  font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+  }
+
+  .main{
+    width: 1100px;
+    /* width: 45%;
+    min-width: 800px; */
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+  }
+
+  .main .pic1{
+    /* width: 100px; */
+    text-align: center;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 400px;
+    /* padding: 200px 470px 0px; */
+
+  }
+
+  .main .pic2{
+    /* width: 50px; */
+    text-align: center;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 16px;
+
+  }
+
+  .reg{
+    text-align: center;
+    margin-top: 48px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+    height: 56px;
+    border-radius: 10px;
+    border: 1px solid #424242;
+  }
+
+  .reg a{
+    text-decoration: none;
+    color: #424242;
+  }
+
+  .reg p{
+    color:#616161;
+    font-size:17px;
+    height: 20px;
+    text-decoration:none;
+    font-weight: bold;
+  }
+
+  /* .reg p:hover{
+    font-weight: bold;
+    
+  } */
+
+  .reg:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.182);
+    background-color: #ffe679;
+    /* border: 1px solid #ffe679; */
+  }
+
+  .icon{
+    width: 235px;
+    text-align: center;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 32px;
+  }
+
+  .pic3{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    margin-left: 12px;
+    margin-right: 22px;
+    
+  }
+
+  .pic4{
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  
+  .pic5{
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .main .other{
+    width: 120px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 150px;
+
+    color:#616161;
+    font-size:14px;
+    height: 20px;
+    text-decoration:none;
+    font-weight: normal;
+    
+  }
+
+  .main a{
+    text-decoration: none;
+  }
+
+  .main .other:hover{
+    font-weight: bold;
+  }
